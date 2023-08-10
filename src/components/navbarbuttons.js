@@ -1,12 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Logo from '../assets/images/Logo.png'
 
 export default function NavbarButtons() {
     return(
         <div class="container-fluid">
             <div class="row">
                 <div>
-                    <img src={Logo} />
+                    <img src='/images/Logo.png' width="200" height="100"/>
                 </div>
                 <nav class="col-md-2 d-none d-md-block bg-light sidebar">
                     <div class="position-sticky">
