@@ -1,7 +1,8 @@
-
-import NavbarButtons from "@/components/navbarbuttons";
+import ButtonList from "@/components/buttonlist";
 import NavbarMessages from "@/components/navbarmessages";
-import User from "@/components/users";
+import User from "@/components/user";
+import Users from "@/components/users";
+import Chat from "@/components/chat";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -10,13 +11,15 @@ export default function Home() {
     <div>
       <div class="row">
         <div class="col-2">
-            <NavbarButtons></NavbarButtons>
+            <ButtonList></ButtonList>
         </div>
         <div class="col-4">
             <NavbarMessages></NavbarMessages>
-            <User></User>
+            <Users></Users>
         </div>
         <div class="col-6">
+          <User></User>
+          <Chat></Chat>
         </div>
       </div>     
     </div>
