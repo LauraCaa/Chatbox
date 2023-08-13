@@ -34,8 +34,8 @@ export default function Chat(){
             </div>
             <form class="row g-3">
                 <div class="col-10">
-                    <label for="input" class="visually-hidden">Password</label>
-                    <input type="text" class="form-control" id="inputPassword2" placeholder="Password"/>
+                    <label for="input" class="visually-hidden">Type a message</label>
+                    <input type="text" class="form-control" placeholder="Type a message"/>
                 </div>
                 <div class="col-2">
                     <button type="submit" class="btn btn-primary mb-3">

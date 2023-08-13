@@ -9,15 +9,18 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export default function Home() {
   return (
     <div>
-      <div class="row">
-        <div class="col-2">
+      <div className="row">
+        <div className="col-2 border-end">
             <ButtonList></ButtonList>
         </div>
-        <div class="col-4">
+        <div className="col-4 border-end">
+          <div>
             <NavbarMessages></NavbarMessages>
             <Users></Users>
+          </div>
+            
         </div>
-        <div class="col-6">
+        <div className="col-6 border-end">
           <User></User>
           <Chat></Chat>
         </div>
