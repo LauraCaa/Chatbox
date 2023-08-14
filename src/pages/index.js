@@ -8,7 +8,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Home() {
   return (
-    <div>
       <div className="row">
         <div className="col-2 border-end">
             <ButtonList></ButtonList>
@@ -24,7 +23,6 @@ export default function Home() {
           <User></User>
           <Chat></Chat>
         </div>
-      </div>     
-    </div>
+      </div>
   )
 }

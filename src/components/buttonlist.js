@@ -3,8 +3,8 @@ import LogOutButton from './logout-button';
 
 export default function ButtonList() {
     return(
-        <div className="row border-bottom">
-            <div className="col-12">
+        <div className="row">
+            <div className="col">
                 <div className="d-flex border-bottom p-4">
                     <img src='/images/Logo.png' width="50" height="50"/>
                     <h1 className="px-2"><strong>Chatbox</strong></h1>
