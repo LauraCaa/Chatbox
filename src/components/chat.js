@@ -1,28 +1,28 @@
 export default function Chat(){
     return(
-            <>
+            <div className='main-font'>
                 <div className="row bg-body-tertiary p-3">
-                    <div className="row pt-3 justify-content-center">
-                        <div className="bg-white text-center pt-2 col-2 rounded-5">
-                            <p className="lead">Today, Jan 30</p>
+                    <div className="row pt-2 justify-content-center">
+                        <div className="bg-white text-center pt-1 col-2 rounded-5">
+                            <p className="small">Today, Jan 30</p>
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-6">
                             <img src='/images/mass.png' className=" d-flex rounded-circle float-start mr-2" alt="photo" width="50" height="50"/>
                             <div className="d-flex">
-                                <h3 className="mr-2">Happy</h3>
-                                <p className="pt-1 lead">05:00 PM</p>
+                                <h6 className="mr-2">Happy</h6>
+                                <p className="small pt-1">05:00 PM</p>
                             </div> 
                             <div className="ml-6 bg-white rounded-bottom rounded-end">
-                                <p className="lead">Guyss tahun depan liburan ke Jepun!!</p>
+                                <p className="small">Guyss tahun depan liburan ke Jepun!!</p>
                             </div>
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-6">
                             <div className="ml-6 bg-white rounded-bottom rounded-end">
-                                <p className="lead">Minta Tolong nanti dibuat pembagian tugas kaya biasa</p>
+                                <p className="small">Minta Tolong nanti dibuat pembagian tugas kaya biasa</p>
                             </div>
                         </div>
                     </div>
@@ -33,12 +33,12 @@ export default function Chat(){
                                     <img src='/images/profile.jpeg' className=" d-flex rounded-circle float-start mr-2" alt="photo" width="50" height="50"/>
                                 </div>
                                 <div className=" d-flex flex-row-reverse">
-                                    <h3 className="mr-2 ml-2">You</h3>
-                                    <p className="lead pt-1">05:01 PM</p>
+                                    <h6 className="mr-2 ml-2">You</h6>
+                                    <p className="small pt-1">05:01 PM</p>
                                 </div> 
                             </div> 
                             <div className="mr-7 bg-primary rounded-bottom rounded-start">
-                                <p className="lead text-light">Gokill!!</p>
+                                <p className="small text-light">Gokill!!</p>
                             </div>
                         </div>
                     </div>
@@ -46,11 +46,11 @@ export default function Chat(){
                         <div className="col-6">
                             <img src='/images/rohmad.png' className="d-flex rounded-circle float-start mr-2" alt="photo" width="50" height="50"/>
                             <div className=" d-flex">
-                                <h3 className="mr-2">Rohmad</h3>
-                                <p className="pt-1 lead">05:03 PM</p>
+                                <h6 className="mr-2">Rohmad</h6>
+                                <p className="pt-1 small">05:03 PM</p>
                             </div> 
                             <div className=" ml-6 bg-white rounded-bottom rounded-end">
-                                <p className="lead">Tenan ki???</p>
+                                <p className="small">Tenan ki???</p>
                             </div>
                         </div>    
                     </div>
@@ -58,18 +58,18 @@ export default function Chat(){
                         <div className="col-6">
                             <img src='/images/mass.png' className=" d-flex rounded-circle float-start mr-2" alt="photo" width="50" height="50"/>
                             <div className="d-flex">
-                                <h3 className="mr-2">Happy</h3>
-                                <p className="pt-1 lead">05:04 PM</p>
+                                <h6 className="mr-2">Happy</h6>
+                                <p className="pt-1 ">05:04 PM</p>
                             </div> 
-                            <div className=" ml-6 bg-white rounded-bottom rounded-end">
-                                <p className="lead">@Listian @Fazza @Mba Nayu</p>
+                            <div className="ml-6 bg-white rounded-bottom rounded-end">
+                                <p className="small">@Listian @Fazza @Mba Nayu</p>
                             </div>
                         </div>     
                     </div>
                     <div className="row">
                         <div className="col-6">
                             <div className="ml-6 bg-white rounded-bottom rounded-end">
-                                <p className="lead">Mintol Cek Figma ini dong https://getbootstrap.com/docs/adcopy..</p>
+                                <p className="small">Mintol Cek Figma ini dong https://getbootstrap.com/docs/adcopy..</p>
                             </div>
                         </div>
                     </div>
@@ -80,12 +80,12 @@ export default function Chat(){
                                     <img src='/images/profile.jpeg' className=" d-flex rounded-circle float-start mr-2" alt="photo" width="50" height="50"/>
                                 </div>
                                 <div className=" d-flex flex-row-reverse">
-                                    <h3 className="mr-2 ml-2">You</h3>
-                                    <p className="lead pt-1">05:01 PM</p>
+                                    <h6 className="mr-2 ml-2">You</h6>
+                                    <p className="small pt-1">05:01 PM</p>
                                 </div> 
                             </div> 
                             <div className="mr-7 bg-primary rounded-bottom rounded-start">
-                                <p className="lead text-light">Wokee slap mas! utiwi cek</p>
+                                <p className="small text-light">Wokee slap mas! utiwi cek</p>
                             </div>
                         </div>
                     </div>
@@ -110,7 +110,6 @@ export default function Chat(){
                         </svg>
                     </button> 
                 </div>
-        </>
-         
+            </div> 
     )
 }
