@@ -1,15 +1,13 @@
 export default function LogOutButton(){
     return(
-        <div className="btn btn-outline-danger border-white rounded-4 w-100">
-            <div className="row">
-                <div className="col-6 p-2">
-                    <img src='/images/profile.jpeg' className="rounded-circle float-start" alt="photo" width="50" height="50"></img>
-                </div>
-                <div className="col-6 p-2">
-                    <h4>Luciana</h4>
-                    <p>Logout</p>
-                </div>
+        <div className="main-font t-color p-2 col-6 btn rounded-pill out-btn w-100">
+            <img src='/images/profile.jpeg' className=" d-flex rounded-circle float-start mr-2" alt="photo" width="50" height="50"/>
+            <div className="d-flex">
+                <h6 className="mr-2">Fazaa</h6>
             </div>
+            <div className="d-flex t-less">
+                <p className="small">Logout</p>
+            </div> 
         </div>
     )
 }

@@ -10,18 +10,18 @@ export default function User(){
                 <p className="px-2 small">Pinned message</p>
             </div>
             <div>
-                <div className="p-1">
-                    <img src='/images/odama.png' className="mr-2 rounded-circle float-start" alt="photo" width="60" height="60"></img>
+                <div className="p-1 small">
+                    <img src='/images/odama.png' className="mr-2 rounded-circle float-start" alt="photo" width="50" height="50"></img>
                     <h6>Odama Studio</h6>
                     <p className="text-success lh-1 small">Happy Typing...</p>
                 </div>
-                <div className="p-1">
-                    <img src='/images/hatypo.png' className="mr-2 rounded-circle float-start" alt="photo" width="60" height="60"></img>
+                <div className="p-1 small">
+                    <img src='/images/hatypo.png' className="mr-2 rounded-circle float-start" alt="photo" width="50" height="50"></img>
                     <h6>Hatypo Studio</h6>
                     <p className="lh-1 small">Momon: Lahh gas!</p>
                 </div>
-                <div className="p-1">
-                    <img src='/images/nola.png' className="mr-2 rounded-circle float-start" alt="photo" width="60" height="60"></img>
+                <div className="p-1 small">
+                    <img src='/images/nola.png' className="mr-2 rounded-circle float-start" alt="photo" width="50" height="50"></img>
                     <h6>Nolaa</h6>
                     <p className="lh-1 small">Keren banget</p>
                 </div>
@@ -33,21 +33,31 @@ export default function User(){
                     </svg>
                     <p className="px-2 small">All Message</p>
                 </div>
-                <div className="p-1">
-                    <img src='/images/mass.png' className="mr-2 rounded-circle float-start" alt="photo" width="60" height="60"></img>
+                <div className="ml-1 small">
+                    <img src='/images/mass.png' className="mr-2 rounded-circle float-start" alt="photo" width="50" height="50"></img>
                     <h6>Happy</h6>
                     <p className="text-success small">Typing...</p>
                 </div>
-                <div className="p-1">
-                    <img src='/images/rohmad.png' className="mr-2 rounded-circle float-start" alt="photo" width="60" height="60"></img>
+                <div className="p-1 small">
+                    <img src='/images/rohmad.png' className="mr-2 rounded-circle float-start" alt="photo" width="50" height="50"></img>
                     <h6>Rohmad</h6>
                     <p className="lh-1 small">Zaa jo lali ngeshot yaa</p>
                 </div>
-                <div className="p-1">
-                    <img src='/images/listian.png' className="mr-2 rounded-circle float-start" alt="photo" width="60" height="60"></img>
-                    <h6>Listian</h6>
-                    <p className="lh-1 small">Mantapp za</p>
-                </div>   
+                <div className="p-1 small">
+                    <img src='/images/rafi.png' className="mr-2 rounded-circle float-start" alt="photo" width="50" height="50"></img>
+                    <h6>Rafi Rohmat</h6>
+                    <p className="lh-1 small">El mesaje</p>
+                </div>
+                <div className="p-1 small">
+                    <img src='/images/caca.png' className="mr-2 rounded-circle float-start" alt="photo" width="50" height="50"></img>
+                    <h6>Caca</h6>
+                    <p className="lh-1 small">Oke sugun</p>
+                </div>
+                <div className="p-1 small">
+                    <img src='/images/farjan.png' className="mr-2 rounded-circle float-start" alt="photo" width="50" height="50"></img>
+                    <h6>Farjan</h6>
+                    <p className="lh-1 small">Zaa uda tak update di figma</p>
+                </div>    
             </div>   
         </div>
     )

@@ -74,7 +74,7 @@ export default function ButtonList() {
                     </ul>
                 </div>
             </div>
-            <div className="d-flex align-items-end" height="300">
+            <div className="d-flex align-content-end" height="300">
                 <LogOutButton></LogOutButton>
             </div>
         </div>

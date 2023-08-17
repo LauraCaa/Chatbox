@@ -2,7 +2,7 @@ export default function User(){
     return(
         <div className="row border-bottom"> 
             <div className="mr-2 d-flex align-items-center justify-content-between">
-                <div className="col-8 mr-2">
+                <div className="col-5 mr-2">
                     <div className="pt-4 align-items-center">
                         <img src='/images/odama.png' className="mr-2 rounded-circle float-start" alt="photo" width="60" height="60"></img>
                     </div>
@@ -11,7 +11,21 @@ export default function User(){
                         <p className="small me-1 pr-2 text-success">Happy Typing...</p>
                     </div>     
                 </div>
-                <div className="col-5 d-flex align-items-center">
+                <div className="col-3 position-relative">
+                    <div className="pt-4 position-relative end-30">
+                        <img src='/images/nola.png' className="mr-2 rounded-circle float-start" alt="photo" width="60" height="60"></img>
+                    </div>
+                    <div className="pt-4 position-relative star-0">
+                        <img src='/images/listian.png' className="mr-2 rounded-circle float-start" alt="photo" width="60" height="60"></img>
+                    </div>
+                    <div className="pt-4 position-relative star-0">
+                        <img src='/images/rohmad.png' className="mr-2 rounded-circle float-start" alt="photo" width="60" height="60"></img>
+                    </div>
+                    <div className="pt-4 position-relative star-0">
+                        <img src='/images/mass.png' className="mr-2 rounded-circle float-start" alt="photo" width="60" height="60"></img>
+                    </div>
+                </div>
+                <div className="col-4 d-flex align-items-center">
                     <div className="btn rounded-circle bg-body-tertiary text-secondary">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-camera-video m-2" viewBox="0 0 16 16">
                             <path fill="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5zm11.5 5.175 3.5 1.556V4.269l-3.5 1.556v4.35zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H2z"/>

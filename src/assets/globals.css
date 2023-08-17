@@ -3,6 +3,10 @@
 .main-font{
   font-family: 'Mulish', sans-serif;
 }
+.ml-1{
+  margin-left: 5px;
+
+}
 .mr-2{
   margin-right: 20px;
 }
@@ -24,11 +28,55 @@
 .t-color:hover{
   color: aliceblue;
 }
+.t-less{
+  color: rgb(147, 147, 147);
+}
+.t-less:hover{
+  color: rgb(255, 255, 255);
+}
+.out-btn:hover{
+  background-color: rgb(255, 0, 0);
+}
 .icon-color{
   color: rgb(186, 184, 184);
 }
 .menu-item:hover .icon-color{
-  color: rgb(255, 255, 255);
-  
+  color: rgb(255, 255, 255); 
+}
+.end-15{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    padding: 10px;
+}
+.end-30{
+  position: absolute;
+  top: 0px;
+  right: 50px;
+  padding: 10px;
+}
+.end-45{
+  position: absolute;
+  top: 0px;
+  right: 100px;
+  padding: 10px;
+}
+.end-35{
+  position: absolute;
+  top: 0px;
+  right: 120px;
+  padding: 10px;
+}
+.end-40{
+  position: absolute;
+  top: 0px;
+  right: 130px;
+  padding: 10px;
+}
+.end-50{
+  position: absolute;
+  top: 0px;
+  right: 140px;
+  padding: 10px;
 }
 
