@@ -11,18 +11,11 @@ export default function User(){
                         <p className="small me-1 pr-2 text-success">Happy Typing...</p>
                     </div>     
                 </div>
-                <div className="col-3 position-relative">
-                    <div className="pt-4 position-relative end-30">
-                        <img src='/images/nola.png' className="mr-2 rounded-circle float-start" alt="photo" width="60" height="60"></img>
-                    </div>
-                    <div className="pt-4 position-relative star-0">
-                        <img src='/images/listian.png' className="mr-2 rounded-circle float-start" alt="photo" width="60" height="60"></img>
-                    </div>
-                    <div className="pt-4 position-relative star-0">
-                        <img src='/images/rohmad.png' className="mr-2 rounded-circle float-start" alt="photo" width="60" height="60"></img>
-                    </div>
-                    <div className="pt-4 position-relative star-0">
-                        <img src='/images/mass.png' className="mr-2 rounded-circle float-start" alt="photo" width="60" height="60"></img>
+                <div className="col-3">
+                    <div className="position-relative">
+                        <img src='/images/nola.png' className="rounded-circle end-45" alt="photo" width="60" height="60"></img>
+                        <img src='/images/listian.png' className="rounded-circle end-50" alt="photo" width="60" height="60"></img>
+                        <img src='/images/rohmad.png' className="rounded-circle end-55" alt="photo" width="60" height="60"></img>
                     </div>
                 </div>
                 <div className="col-4 d-flex align-items-center">

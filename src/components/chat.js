@@ -1,8 +1,8 @@
 import Form from "./form"
 export default function Chat(){
     return(
-            <div className='main-font '>
-                <div className="overflow-y-auto row bg-body-tertiary p-3">
+            <div className='main-font'>
+                <div className="overflow-y-auto row bg-body-tertiary p-2">
                     <div className="row pt-2 justify-content-center">
                         <div className="bg-white text-center pt-1 col-2 rounded-5">
                             <p className="small">Today, Jan 30</p>
@@ -27,7 +27,7 @@ export default function Chat(){
                             </div>
                         </div>
                     </div>
-                    <div className="row pt-3 flex-row-reverse">
+                    <div className="row pt-2 flex-row-reverse">
                         <div className="col-6">
                             <div className="d-flex flex-row-reverse">
                                 <div className="d-flex flex-row-reverse">
@@ -43,7 +43,7 @@ export default function Chat(){
                             </div>
                         </div>
                     </div>
-                    <div className="row pt-3">
+                    <div className="row pt-2">
                         <div className="col-6">
                             <img src='/images/rohmad.png' className="d-flex rounded-circle float-start mr-2" alt="photo" width="50" height="50"/>
                             <div className=" d-flex">
@@ -55,7 +55,7 @@ export default function Chat(){
                             </div>
                         </div>    
                     </div>
-                    <div className="row pt-3">
+                    <div className="row pt-2">
                         <div className="col-6">
                             <img src='/images/mass.png' className=" d-flex rounded-circle float-start mr-2" alt="photo" width="50" height="50"/>
                             <div className="d-flex">
@@ -67,14 +67,14 @@ export default function Chat(){
                             </div>
                         </div>     
                     </div>
-                    <div className="row pt-2">
+                    <div className="row pt-3">
                         <div className="col-6">
                             <div className="ml-6 bg-white rounded-bottom rounded-end p-2">
                                 <p className="small">Mintol Cek Figma ini dong https://getbootstrap.com/docs/adcopy..</p>
                             </div>
                         </div>
                     </div>
-                    <div className="row pt-3 flex-row-reverse">
+                    <div className="row pt-2 flex-row-reverse">
                         <div className="col-6">
                             <div className="d-flex flex-row-reverse">
                                 <div className="d-flex flex-row-reverse">
