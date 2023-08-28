@@ -4,7 +4,7 @@ import LogOutButton from './logout-button';
 export default function ButtonList() {
     return(
         <div className="row">
-            <div className="col">
+            <div className="col overflow-hidden">
                 <div className="row pt-2">
                     <div className="d-flex align-content-center justify-content-center overflow-hidden border-bottom p-4">
                         <img src='/images/Logo.png' width="35" height="35"/>

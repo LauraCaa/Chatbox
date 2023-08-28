@@ -8,19 +8,19 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Home() {
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden h-100 w-100">
       <div className="row">
         <div className="col-2 border-end">
             <ButtonList></ButtonList>
         </div>
-        <div className="col-4 border-end">
+        <div className="col-4 h-100 border-end">
           <div>
             <NavbarMessages></NavbarMessages>
             <Users></Users>
           </div>
             
         </div>
-        <div className="col-6 border-end">
+        <div className="overflow-hidden col-6 border-end">
           <User></User>
           <Chat></Chat>
         </div>
