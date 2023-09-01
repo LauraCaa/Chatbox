@@ -3,14 +3,20 @@
 .main-font{
   font-family: 'Mulish', sans-serif;
 }
+.mr-1{
+  margin-right: 10px;
+}
 .mr-2{
   margin-right: 20px;
+}
+.mr-6{
+  margin-right: 60px;
 }
 .mr-7{
   margin-right: 70px;
 }
 .ml-1{
-  margin-left: 5px;
+  margin-left: 10px;
 }
 .ml-2{
   margin-left: 20px;
@@ -18,14 +24,18 @@
 .ml-6{
   margin-left: 60px;
 }
+.ml-6{
+  margin-left: 70px;
+}
 .pr-3{
   padding-right: 30px;
 }
 .pl{
-  padding-left: 150px;
+  padding-left: 100px;
 }
+
 .pl-2{
-  padding-left: 270px;
+  padding-left: 195px;
 }
 .t-color{
   color: black;
@@ -62,7 +72,7 @@
 }
 .end-45{
   position: absolute;
-  top: 0px;
+  top: 3px;
   right: 100px;
 }
 .end-50{
@@ -76,5 +86,9 @@
 .end-70{
   position: absolute;
   left:70px;
+}
+.end-80{
+  position: absolute;
+  left:80px;
 }
 

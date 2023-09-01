@@ -1,6 +1,6 @@
 export default function Form(){
     return(
-        <div className="p-3">
+        <div className="p-3 align-items-end">
             <fieldset className="position-relative">
                 <input type="text" className="form-control border border-white rounded-pill bg-body-tertiary pt-3" placeholder="Type a message"/>
                 <button className="position-absolute end-15 btn border border-white text-secondary" type="button">
